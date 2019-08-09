@@ -1,0 +1,30 @@
+>npm install -g ionic
+
+创建项目
+>ionic start
+
+Install the free Ionic Appflow SDK and connect your app? N
+
+启动项目
+>ionic serve
+
+创建页面
+>ionic generate
+或者
+>ionic g page PATH/PAGE_NAME
+
+创建服务
+>ionic g service PATH/SERVICE_NAME
+
+创建guard
+>ionic g guard PATH/GUARD_NAME
+
+创建组建
+>ionic g component PATH/COMPONENT_NAME
+
+模拟器调试(先打开android studio)
+>npm install --save @capacitor/core @capacitor/cli
+>ionic build
+>ionic capacitor add android
+>ionic capacitor copy android
+>ionic capacitor run android -l
