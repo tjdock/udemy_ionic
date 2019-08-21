@@ -28,3 +28,7 @@ Install the free Ionic Appflow SDK and connect your app? N
 >ionic capacitor add android
 >ionic capacitor copy android
 >ionic capacitor run android -l
+
+
+ngrx
+>npm i --save @ngrx/store
